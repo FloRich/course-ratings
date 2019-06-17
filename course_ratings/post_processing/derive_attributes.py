@@ -44,6 +44,6 @@ with open(INPUT_FILE_, 'r') as input_file:
                 subject[attrib] = None
 
     with open(OUTPUT_FILE, "w") as output_file:
-        json.dump(data, output_file)
+        json.dump(data, output_file,ensure_ascii=False)
         output_file.close()
     input_file.close()
