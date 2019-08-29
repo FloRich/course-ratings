@@ -10,4 +10,4 @@ In this part, ratings from [meinprof.de](https://www.meinprof.de) were scraped f
 The raw scraped data can be found under data/ratings.json.
 
 The created dataset can be found under data/post_processed_courses.json. It cointains normalized ratings and statistics about the ratings for each course. 
-This file is used for the visualization in the [research project](https://github.com/FloRich/uni-due-visual-study-planer).
+This file is used for the visual representation of ratings in the [research project](https://github.com/FloRich/uni-due-visual-study-planer).
