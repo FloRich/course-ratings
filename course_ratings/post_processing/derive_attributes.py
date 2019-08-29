@@ -1,6 +1,6 @@
 import json
 
-INPUT_FILE_ = "../data/ratings_04.06.19.json"
+INPUT_FILE_ = "../data/rating.json"
 OUTPUT_FILE = "../data/post_processed_courses.json"
 
 with open(INPUT_FILE_, 'r') as input_file:

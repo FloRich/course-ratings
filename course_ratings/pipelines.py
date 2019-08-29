@@ -6,7 +6,7 @@
 # See: https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 
 
-class CourseRatingPipeline(object):
+class CourseRatingsPipeline(object):
     rating_attributes = ['fairness','support','material','fun', 'understandability','interest','node_effort']
 
     def process_item(self, item, spider):
